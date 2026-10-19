@@ -1,0 +1,148 @@
+body {
+    background-color: #fff8fc;
+    color: #514657;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #f6dff0;
+    border-bottom: 2px solid #e9c6df;
+}
+
+.navbar-brand {
+    color: #754d70;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #754d70;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #d15a9a;
+    text-decoration: underline;
+}
+
+.welcome {
+    text-align: center;
+    background-color: #fce8f3;
+    padding: 65px 20px;
+    border-bottom: 3px dotted #e9c6df;
+}
+
+.welcome h1 {
+    color: #a64d85;
+    font-size: 38px;
+}
+
+.welcome p {
+    font-size: 17px;
+}
+
+.page-title {
+    text-align: center;
+    background-color: #fce8f3;
+    padding: 35px 15px;
+    border-bottom: 3px dotted #e9c6df;
+}
+
+.page-title h1 {
+    color: #a64d85;
+}
+
+.heading {
+    text-align: center;
+    color: #a64d85;
+    margin-bottom: 25px;
+}
+
+.simple-card {
+    background-color: white;
+    border: 2px solid #f0d5e7;
+    border-radius: 10px;
+    padding: 22px;
+    height: 100%;
+}
+
+.simple-card h2, .simple-card h3 {
+    color: #a64d85;
+}
+
+.simple-card a {
+    color: #b64f91;
+}
+
+.cute-button {
+    background-color: #d982b7;
+    color: white;
+    border: 1px solid #c56aa2;
+}
+
+.cute-button:hover {
+    background-color: #c56aa2;
+    color: white;
+}
+
+.progress {
+    height: 22px;
+    background-color: #f2e4ee;
+}
+
+.progress-bar {
+    background-color: #d982b7;
+}
+
+.table th {
+    background-color: #f6dff0;
+    color: #754d70;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border: 2px solid #f0d5e7;
+    border-radius: 8px;
+}
+
+.photo-placeholder {
+    display: none;
+    text-align: center;
+    padding: 35px 5px;
+    background-color: #fff0f8;
+    border: 2px dashed #d9a9cb;
+    border-radius: 8px;
+}
+
+.photo-caption {
+    text-align: center;
+    margin-top: 8px;
+    color: #a64d85;
+}
+
+.form-control {
+    border-color: #e4c5da;
+}
+
+.form-control:focus {
+    border-color: #d982b7;
+    box-shadow: 0 0 0 0.2rem #d982b733;
+}
+
+footer {
+    background-color: #f6dff0;
+    color: #754d70;
+    text-align: center;
+    padding: 16px 10px;
+    margin-top: 35px;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .welcome h1 {
+        font-size: 30px;
+    }
+}
